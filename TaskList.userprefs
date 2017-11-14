@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{86960252-F4C0-4A3E-93E0-3FFE21A33545}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TaskList/TaskListPage.xaml">
+    <Files>
+      <File FileName="TaskList/TaskListPage.xaml" Line="5" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TaskList" expanded="True">
+            <Node name="TaskList" expanded="True">
+              <Node name="TaskListPage.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="TaskList.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TaskList.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.A6A6860E-E454-4955-97C4-8B6BAD136048">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.TaskList.iOS>
+  <MultiItemStartupConfigurations />
+</Properties>
