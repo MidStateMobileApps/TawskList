@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TaskList.AddItemPage">
+	<ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="0, 40, 0, 30">
+            <Label FontSize="24" FontFamily="TrebuchetMS" Text="Add Item"></Label>
+            <Picker x:Name="PriorityPicker" Title="Select Priority" HeightRequest="40"></Picker>
+            <Button x:Name= "SubmitBtn" Pressed="Handle_Pressed" Text="Submit"></Button>
+        </StackLayout>
+	</ContentPage.Content>
+</ContentPage>

@@ -8,7 +8,7 @@ namespace TaskList
         {
             InitializeComponent();
 
-            MainPage = new TaskListPage();
+            MainPage = new NavigationPage(new TaskListPage());
         }
 
         protected override void OnStart()

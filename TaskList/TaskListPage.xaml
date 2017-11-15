@@ -1,4 +1,29 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TaskList" x:Class="TaskList.TaskListPage">
-	<Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+   xmlns:local="clr-namespace:TaskList" x:Class="TaskList.TaskListPage" Padding="0, 20">
+   <ContentPage.Content>
+   <StackLayout Orientation="Vertical" Padding="0, 25, 0, 10">
+   <ListView x:Name="TodoList" HasUnevenRows="True">
+     <ListView.ItemTemplate>
+       <DataTemplate>
+         <ViewCell>
+           <ViewCell.View>
+              <Grid>
+                  <Grid.ColumnDefinitions>
+                     <ColumnDefinition Width="40"/>
+                     <ColumnDefinition Width="140"/>
+                     <ColumnDefinition Width="70"/>
+                   </Grid.ColumnDefinitions>
+                   <Image Grid.Column="0" Source="{Binding ImportanceImage}"></Image>
+                   <Label Grid.Column="1" Text="{Binding ItemName}"></Label>
+                   <Button Grid.Column="2" x:Name="{Binding ItemId}"
+                           Text="Delete" Pressed="Handle_Pressed"></Button>
+               </Grid>
+           </ViewCell.View>
+         </ViewCell>
+       </DataTemplate>
+     </ListView.ItemTemplate>
+   </ListView>
+   </StackLayout>
+  </ContentPage.Content>
 </ContentPage>
